@@ -14,14 +14,37 @@
 
 En la carpeta [my-categories-app](/my-categories-app) podrás encontrar una aplicación vacía de react creada a partir de `create-react-app`
 
+// TODO: react testing library - https://testing-library.com/docs/react-testing-library/intro
+
 ## Desafío 1
 
-- Dado una fucion que devuelve un listado de subcategorias dada una categoria, crea un componente que liste categorias de manera vertical.
+- Dado una fucion que devuelve un listado de subcategorias a partir de una categoria, crea un componente que liste categorias de manera vertical.
+
+```
+* Categoria 1
+* Categoria 2
+* Categoria 3
+```
 
 ## Desafío 2
 
 - Al hacer click en una categoria, el componente debe mostrar las subcategorias de primer nivel y mostrar la categoria seleccionada.
-- Al hacer click en una subcategoria de primer nivel, el componente debe mostrar las subcategorias de segundo novel y mostrat la subcategoria de primer nivel seleccionada
+
+```
+* Categoria 1
+  - Subcategoria 1
+  - Subcategoria 2
+  - Subcategoria 3
+```
+
+- Al hacer click en una subcategoria de primer nivel, el componente debe mostrar las subcategorias de segundo nivel y mostrar la subcategoria de primer nivel seleccionada
+
+```
+* Subcategoria 1
+  - Subcategoria 1.1
+  - Subcategoria 1.2
+  - Subcategoria 1.3
+```
 
 ## Restricciones de la Kata
 
@@ -29,7 +52,7 @@ En la carpeta [my-categories-app](/my-categories-app) podrás encontrar una apli
 - [Ping Pong mudo](https://kata-log.rocks/mute-ping-pong)
 - [Mob programming](https://kata-log.rocks/mob-programming)
   - Round Robin
-  - Line Round Robin
+  - Code of line: Round Robin
   - Conductor@ designad@s
 
 ## Estándares de codificación
