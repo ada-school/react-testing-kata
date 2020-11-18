@@ -2,8 +2,16 @@
 
 exports[`Se renderiza una lista de categorias 1`] = `
 <div>
-  <div
-    style="color: red;"
-  />
+  <ul>
+    <li>
+      Categoria 1
+    </li>
+    <li>
+      Categoria 2
+    </li>
+    <li>
+      Categoria 3
+    </li>
+  </ul>
 </div>
 `;
